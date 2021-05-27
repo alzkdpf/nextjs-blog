@@ -1,0 +1,15 @@
+module.exports = {
+  title: `${process.env.NEXT_PUBLIC_TITLE}`,
+  author: `${process.env.NEXT_PUBLIC_AUTHOR}`,
+  headerTitle: `${process.env.NEXT_PUBLIC_HEADER_TITLE}`,
+  description: `${process.env.NEXT_PUBLIC_DESCRIPTION}`,
+  language: 'ko-kr',
+  siteUrl: `${process.env.NEXT_PUBLIC_SITE_URL}`,
+  siteRepo: `${process.env.NEXT_PUBLIC_SITE_REPO}`,
+  image: `${process.env.NEXT_PUBLIC_PROFILE_URL}`,
+  socialBanner: `${process.env.NEXT_PUBLIC_BANNER}`,
+  email: `${process.env.NEXT_PUBLIC_EMAIL}`,
+  github: `${process.env.NEXT_PUBLIC_GITHUB_URL}`,
+  gitlab: `${process.env.NEXT_PUBLIC_GITLAB_URL}`,
+  locale: 'ko-KR',
+}
